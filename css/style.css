@@ -126,7 +126,7 @@ h6 {
           justify-content: space-between;
   -webkit-box-align: end;
       -ms-flex-align: end;
-          align-items: end;
+          align-items: flex-end;
 }
 
 .topline__hr {
@@ -146,6 +146,7 @@ h6 {
 }
 
 .topline__contacts {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -698,11 +699,12 @@ h6 {
           justify-content: start;
   -webkit-box-align: end;
       -ms-flex-align: end;
-          align-items: end;
+          align-items: flex-end;
   padding: 13px 21px 12px 0px;
 }
 
 .footer__number {
+  position: relative;
   font-size: 17px;
   font-weight: 500;
   font-style: normal;
